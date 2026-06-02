@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <link rel="stylesheet" href="styles/project.css">
+</head>
+<body>
+
+<header>
+    <h1>Temple Album</h1>
+
+    <nav>
+        <button onclick="showTemples('home')">Home</button>
+        <button onclick="showTemples('old')">Old</button>
+        <button onclick="showTemples('new')">New</button>
+        <button onclick="showTemples('large')">Large</button>
+        <button onclick="showTemples('small')">Small</button>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<main>
+    <h2 id="title">All Temples</h2>
+    <section id="temple-container" class="grid"></section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Temple Album</p>
+</footer>
+
+<script src="scripts/project.js"></script>
+</body>
+</html>
