@@ -74,7 +74,7 @@ function showTemples(filter) {
 
     else if (filter === "small") {
         filtered = temples.filter(t => t.area < 10000);
-        document.getElementById("title").textContent = "Small Temples";
+        document.getElementById("title").textContent = "No Small Temples";
     }
 
     displayTemples(filtered);
